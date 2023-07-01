@@ -1,0 +1,166 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+}
+body{
+    height: 100vh;
+}
+.sec1{
+    height: 200vh;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.597), rgba(255,255,255,0.590)), url(./images/istockphoto-1332632645-612x612.jpg);
+    background-attachment: fixed;
+    background-position: 500vh ;
+    background-size:contain;
+}
+.sec2{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.597), rgba(255,255,255,0.590)), url(./images/bakery-vector.jpg);
+    background-attachment: fixed;
+}
+.nav-item:hover{
+    text-decoration:underline;
+    content: '\f244';
+    transition: 1s;
+}
+.navbar{
+    border-radius: 10px;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.890) ;
+    color: whitesmoke;
+}
+header{
+    position:fixed;
+    top:auto;
+    width: 100%;
+    z-index: 200;
+}
+/* .slidebar{
+  float: left;
+  margin-top: 80px;
+  background: rgba(0, 0, 0, 0.890);
+  height:50vh;
+  color: whitesmoke;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+} */
+.cntnt{
+    background: rgba(0, 0, 0, 0.890);
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 30px;
+    width: 184.5vh;
+    padding: 20px;
+    height: 180vh;
+    border-radius: 10px;
+}
+.cards{
+    width: 180vh;
+    height: 92vh;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.img1{
+    margin-top: 60px;
+    float: left;
+}
+.img2{
+    margin-top: 40px;
+    float: right;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    display: inline;
+    margin-top: 200vh;
+    position: absolute;
+    background-color: #000;
+}
+.foot1{
+    margin-top: 20px;
+    width: 500px;
+    margin-left: 20px;
+    float: left;
+}
+.foot2{
+    margin-top: 20px;
+    width: 400px;
+    margin-right: 0px;
+    float: left;
+}
+a{
+    color: #fff;
+}
+.foot3{
+    margin-top: 20px;
+    width: 500px;
+    margin-left: 30px;
+    color:#fff;
+    float: right;
+}
+.card1{
+  display: inline-block;
+  color: black;
+  width: 300px;
+  background:rgba(245, 245, 220, 0.925);
+  height: 330px;
+  margin: 10px;
+  margin-left: 20px;
+  border-width: 4px;
+  box-shadow: 0px 5px 10px 3px black;
+}
+.card1:hover{
+  transition: 1s;
+  zoom:1.005;
+  box-shadow: 10px 10px 15px 6px solid black;
+}
+#card{
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 200px;
+  height: 150px;
+  display: inline-flex;
+}
+.btn{
+  display:inline-flex;
+  float: right;
+}
+.register{
+    display: inline;
+    height: 200vh;
+    background-image: url(./images/bakery-819.jpg);
+}
+.line{
+    width: 3px;
+    height: 500px;
+    float: left;
+    background:rgb(175, 175, 175);
+}
+.box{
+    width: 60%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.918);
+    text-align: left;
+    box-shadow: 10px 10px 15px 6px solid rgb(245, 16, 16);;
+    margin-left: 325px;
+    margin-top: 150px;
+    display:flex;
+}
+.boxcn{
+    margin: 30px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.boxcn2{
+    float: right;
+    width: 500px;
+    display: inline;
+    margin-left: 40px;
+}

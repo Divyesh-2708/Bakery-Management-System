@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    /* height: 100vh; */
+    background:#fff;
+}
+.navbar{
+    border-radius: 10px;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.890) ;
+    color: whitesmoke;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.sec1{
+    width: 100%;
+    background-image: url(./images/360_F_251199155_tNN3Fm9MgYRBXfBq1BglJIZVrjks2qDl.jpg);
+    background-size:contain;
+    background-attachment: fixed;
+    background-position: center;
+    height: 130vh;
+}
+.sec2{
+    width: 100%;
+    background-image: url(./images/set-cooking-quotes-label-typography-lettering_32550-45.jpg);
+    background-size:contain;
+    background-attachment: fixed;
+    background-position: center;
+    height: 130vh;
+}
+.sec3{
+    width: 100%;
+    background-image: url(./images/bakery-819.jpg);
+    background-size:contain;
+    background-attachment: fixed;
+    background-position: center;
+    height: 130vh;
+}
+header{
+    position:fixed;
+    top:auto;
+    width: 100%;
+    z-index: 200;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    display: inline;
+    margin-top: 2vh;
+    position: absolute;
+    background-color: #000;
+}
+.foot1{
+    margin-top: 20px;
+    width: 500px;
+    margin-left: 20px;
+    float: left;
+}
+.foot2{
+    margin-top: 20px;
+    width: 400px;
+    margin-right: 0px;
+    float: left;
+}
+.foot3{
+    margin-top: 20px;
+    width: 500px;
+    margin-left: 30px;
+    float: right;
+}
+.grid{
+    width: 100%;
+    margin-top: 0px;
+    position: absolute;
+    height: 550px;
+    background: #fff;
+}
+.subgrd3{
+    height: 20vh;
+}
+.mySlides{
+    max-height: 300px;
+}
+/* Contact US PAGE CSS */
+.secnct1{
+    background: #000;
+}
+.cntcus{
+    background: #000;
+    margin-top: 300px;
+}
